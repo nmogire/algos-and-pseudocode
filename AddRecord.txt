@@ -1,0 +1,59 @@
+/*****************************************************************
+
+NAME: Nancy Mogire
+
+DATE: JUL, 2016
+
+FILE: AddRecord
+
+DESCRIPTION: pseudocode and code
+
+This file contains pseudocode for the function AddRecord which adds a record to the singly linked list so the list is in ascending order based on accountno
+
+****************************************************************/
+
+define a record pointer called temp
+struct record ** temp;
+
+define a new record called newRecord
+struct record newrecord;
+
+define a record pointer called start
+struct record *start;
+
+define a record pointer pointer called p
+struct record **p;
+
+    set temp pointer to point to the new record that is to be added
+    newRecord = temp;
+    
+    set the pointer pointer p to point to pointer start
+    p = start;
+
+    while the next field of the pointer whose address is pointed to by p is not NULL
+    while(p -> next!= NULL)
+    {
+        advance the pointer p to point to the next record on the heap
+        p = p-> p.next;
+
+    end while
+    }
+        
+    if the account number field of the record whose address is in temp contains a number greater than or equal to the one in the account number field of last record on the heap:
+    if((temp -> accountno) >= (p -> accountno))
+    {
+        set the next field of the last record on the heap to point to the 
+        record whose address is in temp
+        p -> next = temp;
+
+    end if
+    }
+
+    else print an error that says the new account number must be greater than or equal to the last one on the heap
+    else{
+    printf("error: enter an account number must be greater than or equal to previous one");
+
+    end else
+    }
+       
+
