@@ -6,7 +6,8 @@ DATE: Nov, 2016
 
 FILE: ascendingCheck.c
 
-DESCRIPTION: This file contains the function solving the following problem:
+DESCRIPTION: This file contains the function solving the following problem: 
+Given a pointer to a list of integers, return 1 if list is sorted in ascending order, and 0 otherwise
 
 ****************************************************************/
 
