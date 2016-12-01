@@ -14,6 +14,7 @@ Given a pointer to a list of integers, return 1 if list is sorted in ascending o
 #include <stdio.h>
 #include "linkedlist.h"
 
+
 /*****************************************************************
 
 Function name: ascendingCheck
