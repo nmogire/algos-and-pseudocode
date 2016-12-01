@@ -4,7 +4,7 @@ NAME: Nancy Mogire
 
 DATE: Nov, 2016
 
-FILE: main.c
+FILE: ascendingCheck.c
 
 DESCRIPTION: This file contains the function solving the following problem:
 
@@ -15,13 +15,14 @@ DESCRIPTION: This file contains the function solving the following problem:
 
 /*****************************************************************
 
-Function name: main
+Function name: ascendingCheck
 
-DESCRIPTION: 
+DESCRIPTION: Function takes in a linked list top node pointer and traverses linked list
+to check if sorted in ascending order
 
-Parameters: argc, argv[], uses fgets to read from stdin
+Parameters: Node pointer
 
-Return values:
+Return values:int
 
 ****************************************************************/
 
